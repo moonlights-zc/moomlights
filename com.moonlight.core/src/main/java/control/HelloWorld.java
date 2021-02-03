@@ -10,7 +10,6 @@ public class HelloWorld {
     @ResponseBody
     @RequestMapping("/hello")
     public String hello(){
-        System.out.println(123);
         return "hello";
     }
 
