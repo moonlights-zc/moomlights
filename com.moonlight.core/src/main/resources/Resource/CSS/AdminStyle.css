@@ -1,0 +1,94 @@
+*{
+    border: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+}
+
+a{
+    color:black;
+}
+
+/*导航栏中*/
+#nav{
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "微软雅黑 Light";
+    background-color: cornsilk;
+}
+/*导航栏中的元素*/
+.ico {
+    position: relative;
+    float: left;
+    display: inline-block;
+    background-color: #f40;
+
+    width: 80px;
+    height: 40px;
+}
+.title{
+    position: relative;
+    float: left;
+    text-align: center;
+}
+.stats{
+    position: relative;
+    float: right;
+    display: inline-block;
+    /*background-color: aquamarine;*/
+    /*top: 20px;*/
+    width: 270px;
+    height: 35px;
+}
+.statses{
+    background-color: dodgerblue;border: 5px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    width: 85px ;
+    height: 35px;
+    top: 4px;
+    float: left;
+    font-size: 13px;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+/*菜单栏*/
+#menupanel{
+
+    display: inline-block;
+    float: left;
+    width: 10%;
+    height: 861px;
+    background-color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+/*功能面板*/
+#mainpanel{
+
+    float: right;
+    width: 90%;
+    height: 861px;
+    background-color: #ffe;
+
+}
+
+
+

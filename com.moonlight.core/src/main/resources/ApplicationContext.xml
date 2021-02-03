@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    此文件为原生面向XML文件的Spring框架的XML文件-->
+<!--    开启注解扫描，开启后选定的类或包下的类全部都会被收纳到Spring框架里管理，需要自动注入的属性，可以通过注解来注入-->
+    <context:component-scan base-package="control,service,dao"></context:component-scan>
+<!--    如果没有配置类则需要下面这个标签来开启驱动-->
+<!--    <mvc:annotation-driven></mvc:annotation-driven>-->
+<!--    下面是SpringJDBC配置的属性-->
+<!--    其中一个为JDBCTemplate所需的必要数据源-->
+<!--    其中DriverManagerDataSource为连接池，后期有许多其他连接池替换-->
+
+
+<!--    <bean name="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
+<!--        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>-->
+<!--        <property name="url" value="jdbc:mysql://localhost:3306/newtest?useSSL=false&amp;characterEncoding=UTF-8"></property>-->
+<!--        <property name="username" value="root"></property>-->
+<!--        <property name="password" value="123456"></property>-->
+<!--    </bean>-->
+
+<!--    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">-->
+<!--        <property name="dataSource" ref="dataSource"></property>-->
+<!--    </bean>-->
+
+
+
+
+<!--    <bean name="" class="" scope="" abstract="" autowire="" destroy-method="" init-method="" lazy-init="" ></bean>-->
+<!--    name等同于id获取对象时的名称     -->
+<!--    class是管理的类对象路径-->
+<!--    scope则是控制对象单例或者是使用原生方式创建的属性 singleton/property-->
+<!--    abstract是否为模板元素，true/false，-->
+<!--    autowire是自动注入相关的byName/byType/通过构造方法，前两种种方式都是从已有的标签中寻找-->
+<!--    destroy-method和init-method分别为对象销毁时执行的方法和创建时执行的方法-->
+</beans>

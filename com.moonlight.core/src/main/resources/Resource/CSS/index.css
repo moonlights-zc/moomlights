@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#body{
+    background-size: cover;
+    background-image: url(../Image/HomeGround/china.jpg);
+    width: 1519px;
+    height: 670px;
+}
+.base{
+    position: relative;
+    float: right ;
+    display: inline-block;
+    width: 35%;
+    top: 40px;
+    /*background-color: ;*/
+}
+.title.inputWords{
+    display: inline-block;
+
+}
+.title{
+    position: relative;
+    font-size: 50px;
+    font-family: "微软雅黑 Light", blod;
+    left: -30px;
+    top: 10px;
+}
+.in{
+    position: relative;
+    width: 600px;
+    height: 3em;
+    top: 10px;
+}
+
+.inputWords{
+    font-size: 25px;
+    font-family: "微软雅黑 Light", blod;
+    position: relative;
+    width: 500px;
+    height: 4em;
+    left: 40px;
+    top: 40px;
+}
+.submit{
+    position: relative;
+    font-size: 18px;
+    /*border-bottom-color: aliceblue;*/
+    width: 600px;
+    height: 2.5em;
+    top: 60px;
+    border-radius: 8px;
+    /*background-color: aquamarine;*/
+    border: aliceblue none ;
+}
