@@ -21,7 +21,7 @@ public class UserControl
         this.userService = userService;
     }
 
-    @Autowired
+    @Autowired()
     UserService userService;
 
 
